@@ -1,0 +1,29 @@
+/* colores */
+
+.banner{
+    background-color: $color-bg;
+  }
+body{
+     position: relative;
+     min-height: 100vh;
+ } 
+ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+}
+button{
+    color: #6C60FF;
+}
+.container-fluid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    @include fontstyle(indigo, 50px);
+}
+p{
+    @include fontstyle(white, 18px);
+}

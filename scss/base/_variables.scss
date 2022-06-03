@@ -1,0 +1,13 @@
+/* colores */
+$color-footer: #080808;
+$color-rsociales:rgb(81, 171, 255);
+$color-bg: #6C60FF;
+
+/* mixin */
+@mixin fontstyle ($color, $fontsize) {
+    color: $color;
+    font-size: $fontsize;
+    
+}
+
+
